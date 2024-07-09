@@ -240,3 +240,34 @@ p {
 .A3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+
+/* my next targets */
+.next_target_con{
+   text-align: left;
+   
+}
+.item{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border: rgba(0, 76, 232, 0.2) solid 1px;
+    border-radius: 16px;
+    margin: 24px;
+}
+.item_img{
+    width: 94px;
+    height: 94px;
+    padding: 24px;
+}
+.item_ds{
+padding: 24px ;
+margin-left: 15px;
+}
+
+.link{
+    font-weight: 600;
+    color: #0D1321;
+    font-size: 16;
+    text-decoration: underline;
+}
