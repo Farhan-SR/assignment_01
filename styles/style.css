@@ -1,0 +1,30 @@
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    margin:  10px 250px;
+      
+}
+.nav_heading{
+
+      font-family: "Azeret Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      color: #0D1321;
+    }
+
+/* .nav_btn{
+
+} */
+.nav_btn a{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: #0D1321;
+    
+}
+
+/* end of heading- */
