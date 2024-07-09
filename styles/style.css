@@ -53,6 +53,8 @@
 /* end of heading- */
 
 /* main start from hare */
+
+
 .main_div {
     margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
@@ -100,4 +102,68 @@
     color: white;
     font-size: 20px;
     padding: 24px;
+}
+
+/* why we dep */
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(13,19,33,.02);
+}
+.ww{
+    padding: 80px 150px;
+}
+.ww_title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.ww_pera{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 24px;
+}
+
+
+
+/* ..............   ` */
+.l_hlaf{
+    width: 500px;
+    text-align: left;
+}
+.first_sec{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin: 20px 90px;
+    /* border: red solid 1px; */
+    background-color: white;
+    padding: 40px;
+}
+
+.first_h1{
+    text-align: left;
+    width: 400px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0D1321;
+}
+.first_pera{
+font-size: 16;
+font-weight: 400;
+}
+
+.first_btn{
+    padding: 15px;
+
+}
+.first_btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+
 }
