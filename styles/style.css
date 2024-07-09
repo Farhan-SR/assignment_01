@@ -1,4 +1,9 @@
 /* share styles */
+h1,
+a,
+p {
+    font-family: "Azeret Mono", monospace;
+}
 
 .color_1 {
     color: #0D1321;
@@ -45,24 +50,17 @@
     font-style: normal;
     text-decoration: none;
     color: #0D1321;
-
-
-
 }
 
 /* end of heading- */
 
 /* main start from hare */
-
-
 .main_div {
     margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
     padding: 25px;
     margin: 10px;
     background-position: center;
-
-
 }
 
 .sub_main {
@@ -84,7 +82,6 @@
 }
 
 .main_pera {
-
     color: #0D1321;
     font-weight: 400;
 }
@@ -110,17 +107,20 @@
     margin: 0 auto;
     align-items: center;
     text-align: center;
-    background-color: rgba(13,19,33,.02);
+    background-color: rgba(13, 19, 33, .02);
 }
-.ww{
+
+.ww {
     padding: 80px 150px;
 }
-.ww_title{
+
+.ww_title {
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
-.ww_pera{
+
+.ww_pera {
     font-weight: 400;
     font-size: 16px;
     color: #0D1321;
@@ -128,13 +128,13 @@
 }
 
 
-
 /* ..............   ` */
-.l_hlaf{
+.l_hlaf {
     width: 500px;
     text-align: left;
 }
-.first_sec{
+
+.first_sec {
     display: flex;
     width: auto;
     justify-content: space-between;
@@ -144,26 +144,99 @@
     padding: 40px;
 }
 
-.first_h1{
+.first_h1 {
     text-align: left;
     width: 400px;
     font-weight: 600;
     font-size: 24px;
     color: #0D1321;
 }
-.first_pera{
-font-size: 16;
-font-weight: 400;
+
+.first_pera {
+    font-size: 16;
+    font-weight: 400;
 }
 
-.first_btn{
+.first_btn {
     padding: 15px;
-
 }
-.first_btn a{
+
+.first_btn a {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     color: #0D1321;
 
+}
+
+/* my inspiration */
+.inspa {
+    margin-top: 90px;
+}
+
+.my_inspa {
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.my_inspa_h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+
+.my_inspa_p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.my_inspa_v {
+    padding: 20px;
+    border-radius: 15px;
+    border: solid rgba(13, 19, 33, .2) 1px;
+}
+
+/* my current targets
+ */
+.target_h1 {
+    font-weight: 800;
+    font-size: 32;
+    color: #0D1321;
+}
+
+.target_p {
+    font-weight: 400;
+    font-size: 16;
+    color: #0D1321;
+}
+
+.skills {
+
+    display: flex;
+    gap: 24px;
+    text-align: left;
+
+}
+
+.sk_names {
+    margin: 0 auto;
+    max-width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.A1 {
+    background-color: rgba(255, 76, 30, .05);
+}
+
+.A2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.A3 {
+    background-color: rgba(255, 223, 0, 0.05);
 }
