@@ -243,11 +243,12 @@ p {
 
 
 /* my next targets */
-.next_target_con{
-   text-align: left;
-   
+.next_target_con {
+    text-align: left;
+
 }
-.item{
+
+.item {
     padding: 40px;
     display: flex;
     align-items: center;
@@ -255,17 +256,19 @@ p {
     border-radius: 16px;
     margin: 24px;
 }
-.item_img{
+
+.item_img {
     width: 94px;
     height: 94px;
     padding: 24px;
 }
-.item_ds{
-padding: 24px ;
-margin-left: 15px;
+
+.item_ds {
+    padding: 24px;
+    margin-left: 15px;
 }
 
-.link{
+.link {
     font-weight: 600;
     color: #0D1321;
     font-size: 16;
@@ -273,24 +276,26 @@ margin-left: 15px;
 }
 
 /* support start */
-.container{
+.container {
     background-image: url("/assets/handshake.jpg");
     padding-top: 64px;
-    width: 1140px;height: 300px;
-    background-repeat: no-repeat ;
-    
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+
     background-position: 50%;
     border-radius: 16px;
-   
+
 }
 
-.sup_h1{
+.sup_h1 {
     font-weight: 600;
-    
+
     font-size: 32px;
     color: white;
 }
-.sup_p{
+
+.sup_p {
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.719);
@@ -298,21 +303,43 @@ margin-left: 15px;
     margin: 14px auto;
 
 
-    
+
 }
-.inpu{
-font-size: 15px;
-font-weight: 400;
-width: 548px;
-height: 50px;
-padding: 10px;
-border-radius: 10px;
+
+.inpu {
+    font-size: 15px;
+    font-weight: 400;
+    width: 548px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
 }
-.submit{
-font-size: 15px;
-font-weight: 800;
-width: 120px;
-height: 60px;
-padding: 15px;
-border-radius: 10px;
+
+.submit {
+    font-size: 15px;
+    font-weight: 800;
+    width: 120px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* footer */
+.footer {
+    background-color: rgba(13, 19, 33, .03);
+    display: flex;
+
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.f_p {
+    font-weight: 600;
+    color: #0D1321;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.icons img {
+    padding: 15px;
 }
