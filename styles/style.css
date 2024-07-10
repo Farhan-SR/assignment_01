@@ -1,7 +1,5 @@
 /* share styles */
-h1,
-a,
-p {
+h1 a p {
     font-family: "Azeret Mono", monospace;
 }
 
@@ -15,7 +13,7 @@ p {
     font-style: normal;
 }
 
-
+/* header start form here */
 
 .header nav {
     display: flex;
@@ -125,7 +123,6 @@ p {
     color: #0D1321;
     padding-top: 24px;
 }
-
 
 /* ..............   ` */
 .l_hlaf {
@@ -240,11 +237,9 @@ p {
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-
 /* my next targets */
 .next_target_con {
     text-align: left;
-
 }
 
 .item {
