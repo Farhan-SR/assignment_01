@@ -282,15 +282,13 @@ p {
     width: 1140px;
     height: 300px;
     background-repeat: no-repeat;
-
-    background-position: 50%;
+    background-position: center;
     border-radius: 16px;
 
 }
 
 .sup_h1 {
     font-weight: 600;
-
     font-size: 32px;
     color: white;
 }
@@ -301,9 +299,6 @@ p {
     color: rgba(255, 255, 255, 0.719);
     width: 400px;
     margin: 14px auto;
-
-
-
 }
 
 .inpu {
